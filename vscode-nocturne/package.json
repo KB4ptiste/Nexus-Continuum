@@ -19,7 +19,7 @@
       {
         "label": "Nocturne",
         "uiTheme": "vs-dark",
-        "path": "./themes/Nocturne-color-theme.json"
+        "path": "./themes/Nocturne-color-theme-v2.0.json"
       }
     ]
   }
