@@ -1,13 +1,13 @@
 <#
 .SYNOPSIS
-    Installs the Nocturne Windows Terminal color scheme.
+    Installs the Nocturne Nexus Windows Terminal color scheme.
 
 .DESCRIPTION
     - Locates the Windows Terminal settings.json for the current user.
     - Backs up the existing configuration.
-    - Imports the Nocturne scheme JSON from the script directory.
+    - Imports the Nocturne Nexus scheme JSON from the script directory.
     - Merges or replaces any existing scheme with the same name.
-    - Sets profiles.defaults.colorScheme to "Nocturne".
+    - Sets profiles.defaults.colorScheme to "Nocturne Nexus".
 
 .PARAMETER SchemeFile
     The file name of the scheme JSON, relative to the script directory.
@@ -176,7 +176,7 @@ try {
         $jsonOut = $settings | ConvertTo-Json -Depth 15
         $jsonOut | Set-Content -Path $SettingsPath -Encoding UTF8
         Write-Info "settings.json updated successfully."
-        Write-Info "If Windows Terminal is open, close and reopen it to apply the Nocturne scheme."
+        Write-Info "If Windows Terminal is open, close and reopen it to apply the Nocturne Nexus scheme."
     } catch {
         Write-Err "Failed to write updated settings.json: $($_.Exception.Message)"
         Write-Info "Your backup is located at: $backupPath"

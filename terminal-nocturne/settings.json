@@ -57,14 +57,14 @@
   ],
   "profiles": {
     "defaults": {
-      "colorScheme": "Nocturne",
+      "colorScheme": "Nocturne Nexus",
       "cursorShape": "vintage",
       "elevate": true,
       "font": {
         "face": "Cascadia Code",
         "size": 16
       },
-      "icon": "K:Dev\\nocturne-themes\\icons\\terminal-app\\Nocturne.ico"
+      "icon": "K:\\Dev\\nocturne-themes\\terminal-nocturne\\media\\Nocturne.ico"
     },
     "list": [
       {
@@ -112,7 +112,7 @@
   },
   "schemes": [
     {
-      "name": "Nocturne",
+      "name": "Nocturne Nexus",
       "cursorColor": "#80FFEA",
       "selectionBackground": "#3E2E50",
       "background": "#271E32",
