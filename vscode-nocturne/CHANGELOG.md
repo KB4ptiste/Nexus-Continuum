@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.1
+
+- Added README.md
+- Added Media files
+
 ## 2.1.0
 
 - Updated `editor.foreground` for better contrast.

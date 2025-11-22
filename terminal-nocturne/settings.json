@@ -1,0 +1,139 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "id": "User.copy.644BA8F2"
+    },
+    {
+      "command": "paste",
+      "id": "User.paste"
+    },
+    {
+      "command": "find",
+      "id": "User.find"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "id": "User.splitPane.A6751878"
+    }
+  ],
+  "alwaysShowNotificationIcon": true,
+  "copyFormatting": "all",
+  "copyOnSelect": false,
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "firstWindowPreference": "persistedWindowLayout",
+  "keybindings": [
+    {
+      "id": "User.copy.644BA8F2",
+      "keys": "ctrl+c"
+    },
+    {
+      "id": "User.find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "id": "User.paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "id": "User.splitPane.A6751878",
+      "keys": "alt+shift+d"
+    }
+  ],
+  "minimizeToNotificationArea": true,
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
+  "profiles": {
+    "defaults": {
+      "colorScheme": "Nocturne",
+      "cursorShape": "vintage",
+      "elevate": true,
+      "font": {
+        "face": "Cascadia Code",
+        "size": 16
+      },
+      "icon": "K:Dev\\nocturne-themes\\icons\\terminal-app\\Nocturne.ico"
+    },
+    "list": [
+      {
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "font": {
+          "face": "Cascadia Code",
+          "size": 17
+        },
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "name": "Windows PowerShell"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "name": "Command Prompt"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": true,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      },
+      {
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "hidden": false,
+        "name": "PowerShell 7",
+        "source": "Windows.Terminal.PowershellCore"
+      },
+      {
+        "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+        "hidden": false,
+        "name": "Git Bash",
+        "source": "Git"
+      },
+      {
+        "commandline": "C:\\Program Files\\nodejs\\node.exe",
+        "guid": "{31faaa47-318c-483a-b396-94c6ecdf58e2}",
+        "hidden": false,
+        "name": "Node.js",
+        "startingDirectory": "%USERPROFILE%"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "name": "Nocturne",
+      "cursorColor": "#80FFEA",
+      "selectionBackground": "#3E2E50",
+      "background": "#271E32",
+      "foreground": "#D8C5EE",
+      "black": "#241B2F",
+      "red": "#FF9580",
+      "green": "#8AFF80",
+      "yellow": "#FFCA80",
+      "blue": "#B399FF",
+      "purple": "#FF80BF",
+      "cyan": "#80FFEA",
+      "white": "#D8C5EE",
+      "brightBlack": "#3E2E50",
+      "brightRed": "#FFB3A0",
+      "brightGreen": "#A8FF9A",
+      "brightYellow": "#FFDE9E",
+      "brightBlue": "#C8A8FF",
+      "brightPurple": "#FF99D1",
+      "brightCyan": "#9AFFF0",
+      "brightWhite": "#F5ECFF"
+    }
+  ],
+  "themes": []
+}

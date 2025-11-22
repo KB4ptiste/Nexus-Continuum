@@ -1,8 +1,8 @@
 {
   "name": "nocturne-theme",
-  "displayName": "Nocturne",
+  "displayName": "Nocturne Nexus",
   "description": "Nocturne dark theme based on a purple-focused palette.",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "publisher": "KB4ptiste",
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Nocturne",
+        "label": "Nocturne Nexus",
         "uiTheme": "vs-dark",
-        "path": "./themes/Nocturne-color-theme-v2.0.json"
+        "path": "./themes/Nocturne-color-theme.json"
       }
     ]
   }
