@@ -1,0 +1,125 @@
+{
+  "$description": "Nocturne Nexus Color Tokens v1.3",
+  "color": {
+    "nn-bg-panel": {
+      "value": "#241B2F",
+      "type": "color"
+    },
+    "nn-bg-elevated": {
+      "value": "#261C31",
+      "type": "color"
+    },
+    "nn-bg-editor-core": {
+      "value": "#271E32",
+      "type": "color"
+    },
+    "nn-bg-accent-block": {
+      "value": "#3E2E50",
+      "type": "color"
+    },
+    "nn-bg-scrollbar-track": {
+      "value": "#49345E",
+      "type": "color"
+    },
+    "nn-fg-primary": {
+      "value": "#D8C5EE",
+      "type": "color"
+    },
+    "nn-fg-muted": {
+      "value": "#977DB5",
+      "type": "color"
+    },
+    "nn-fg-accent-soft": {
+      "value": "#B394D6",
+      "type": "color"
+    },
+    "nn-fg-bright": {
+      "value": "#F5ECFF",
+      "type": "color"
+    },
+    "nn-neutral-light": {
+      "value": "#B0B5C5",
+      "type": "color"
+    },
+    "nn-border-subtle": {
+      "value": "#3C3F46",
+      "type": "color"
+    },
+    "nn-accent-purple-primary": {
+      "value": "#B399FF",
+      "type": "color"
+    },
+    "nn-accent-purple-glow": {
+      "value": "#A761EC",
+      "type": "color"
+    },
+    "nn-accent-purple-bright": {
+      "value": "#C8A8FF",
+      "type": "color"
+    },
+    "nn-accent-magenta": {
+      "value": "#FF80BF",
+      "type": "color"
+    },
+    "nn-accent-magenta-bright": {
+      "value": "#FF99D1",
+      "type": "color"
+    },
+    "nn-accent-cyan-primary": {
+      "value": "#80FFEA",
+      "type": "color"
+    },
+    "nn-accent-cyan-bright": {
+      "value": "#9AFFF0",
+      "type": "color"
+    },
+    "nn-accent-teal-primary": {
+      "value": "#33B9A6",
+      "type": "color"
+    },
+    "nn-accent-teal-soft": {
+      "value": "#52C7B8",
+      "type": "color"
+    },
+    "nn-status-warning": {
+      "value": "#FFCA80",
+      "type": "color"
+    },
+    "nn-status-warning-bright": {
+      "value": "#FFDE9E",
+      "type": "color"
+    },
+    "nn-status-error": {
+      "value": "#FF9580",
+      "type": "color"
+    },
+    "nn-status-error-soft": {
+      "value": "#FFB3A0",
+      "type": "color"
+    },
+    "nn-status-success": {
+      "value": "#8AFF80",
+      "type": "color"
+    },
+    "nn-status-success-bright": {
+      "value": "#A8FF9A",
+      "type": "color"
+    },
+    "nn-3d-purple-shadow": {
+      "value": "#4A3C65",
+      "type": "color"
+    },
+    "nn-3d-purple-mid": {
+      "value": "#6D5B98",
+      "type": "color"
+    },
+    "nn-3d-purple-light": {
+      "value": "#907ACB",
+      "type": "color"
+    },
+    "nn-3d-purple-highlight": {
+      "value": "#DACAFF",
+      "type": "color"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "Nocturne Nexus GX",
+  "description": "Opera GX theme mod based on the Nocturne Nexus purple-forward palette.",
+  "version": "1.0.0",
+  "icons": {
+    "512": "icons/nocturne-gx-icon-512.png"
+  },
+  "mod": {
+    "schema_version": 2,
+    "payload": {
+      "theme": [
+        {
+          "id": "0",
+          "name": "Nocturne Nexus",
+          "dark": {
+            "gx_accent": {
+              "h": 270,
+              "s": 79,
+              "l": 65
+            },
+            "gx_secondary_base": {
+              "h": 268,
+              "s": 27,
+              "l": 25
+            }
+          },
+          "light": {
+            "gx_accent": {
+              "h": 270,
+              "s": 63,
+              "l": 60
+            },
+            "gx_secondary_base": {
+              "h": 268,
+              "s": 27,
+              "l": 90
+            }
+          }
+        }
+      ],
+      "wallpaper": [
+        {
+          "id": "0",
+          "name": "Nocturne Nebula",
+          "dark": {
+            "image": "wallpaper/nocturne-nebula-dark.png",
+            "speeddial_position": "center",
+            "text_color": "#D8C5EE",
+            "text_shadow": "#0B000E"
+          },
+          "light": {
+            "image": "wallpaper/nocturne-nebula-light.png",
+            "speeddial_position": "center",
+            "text_color": "#241B2F",
+            "text_shadow": "#FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+}
