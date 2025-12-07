@@ -9,7 +9,7 @@ This folder (`vscode-nocturne/`) contains the **VS Code extension** implementati
 
 ## Preview
 
-![Nocturne Nexus Theme in VS Code](vscode-nocturne/media/nocturne-theme-preview.png)
+![Nocturne Nexus Theme in VS Code](media/nocturne-theme-preview.png)
 
 > The screenshot above shows Nocturne Nexus applied to a workspace with the full UI chrome visible.
 
