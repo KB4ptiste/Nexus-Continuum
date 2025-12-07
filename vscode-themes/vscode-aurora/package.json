@@ -3,7 +3,7 @@
   "displayName": "Aurora Nexus",
   "description": "Aurora Nexus is the light sibling of Nocturne Nexus: a lavender-tinted, code-first light theme that shares the same accent families and semantic structure.",
   "version": "1.0.0",
-  "publisher": "your-publisher-id",
+  "publisher": "KB4ptiste",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-user/nocturne-themes"
+    "url": "https://github.com/KB4ptiste/Nexus-Continuum.git"
   },
   "bugs": {
-    "url": "https://github.com/your-user/nocturne-themes/issues"
+    "url": "https://github.com/KB4ptiste/Nexus-Continuum/issues"
   },
   "license": "MIT",
   "contributes": {

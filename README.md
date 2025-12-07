@@ -1,12 +1,16 @@
-# Nocturne Nexus Theme for VS Code
+# Nexus Continuum Themes
+
+Nexus Continuum are collections of Light and Dark themes which share the same accent families and semantic structure.
+
+Aurora Nexus is a light, a lavender-tinted, code-first theme that shares the same accent families and semantic structure.
 
 Nocturne Nexus is a dark, purple-forward theme designed for people who spend a lot of time staring at code.  
 It uses a deep violet base, soft lavender text, and high-chroma accents for structure, actions, and diagnostics.
 
 This repo is the **source of truth** for:
 
-- The Nocturne Nexus VS Code theme
-- The shared color palette
+- The Nexus Continuum Theme Collections
+- The shared color palettes
 - The cross-platform design system (editor, terminal, Chroma, web)
 
 ---
@@ -25,7 +29,7 @@ This repo is the **source of truth** for:
   - Chroma / RGB layouts
   - Web UI components
 
-If you use Nocturne Nexus in multiple tools, they all speak the same visual language.
+If you use Nexus Continuum Theme Collections in multiple tools, they all speak the same visual language.
 
 ---
 

@@ -1,19 +1,28 @@
 {
-  "name": "nocturne-theme",
+  "name": "nocturne-nexus-theme",
   "displayName": "Nocturne Nexus",
-  "description": "Nocturne dark theme based on a purple-focused palette.",
+  "description": "Nocturne Nexus is the dark sibling of Aurora Nexus: deep violet base, soft lavender text, and high-chroma accents for structure, actions, and diagnostics that shares the same accent families and semantic structure.",
   "version": "2.1.1",
   "publisher": "KB4ptiste",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/KB4ptiste/nocturne-themes.git"
-  },
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "media/nocturne-nexus-icon.png",
+  "galleryBanner": {
+    "color": "#241B2F",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KB4ptiste/nocturne-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KB4ptiste/Nexus-Continuum/issues"
+  },
+  "license": "MIT",
   "contributes": {
     "themes": [
       {

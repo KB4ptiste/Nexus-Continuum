@@ -1,0 +1,39 @@
+{
+  "name": "nexus-continuum",
+  "displayName": "Nexus Continuum Themes",
+  "description": "A unified VS Code theme pack containing both Nocturne Nexus (dark) and Aurora Nexus (light), built on a shared orbital accent and semantic system.",
+  "version": "1.0.0",
+  "publisher": "KB4ptiste",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Themes"],
+  "icon": "media/nexus-continuum-icon.png",
+  "galleryBanner": {
+    "color": "#271E32",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hhttps://github.com/KB4ptiste/Nexus-Continuum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KB4ptiste/Nexus-Continuum/issues"
+  },
+  "license": "MIT",
+
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nocturne Nexus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nocturne-nexus.json"
+      },
+      {
+        "label": "Aurora Nexus",
+        "uiTheme": "vs",
+        "path": "./themes/aurora-nexus.json"
+      }
+    ]
+  }
+}
