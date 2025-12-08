@@ -11,7 +11,7 @@
     "activityBar.background": "#241B2F",
     "activityBar.foreground": "#d8c5ee",
     "panel.background": "#241B2F",
-    "panel.border": "#261C31",
+    "panel.border": "#3E2E50",
     "titleBar.activeBackground": "#241B2F",
     "titleBar.inactiveBackground": "#3E2E50",
     "titleBar.activeForeground": "#d8c5ee",
@@ -76,7 +76,6 @@
     "terminal.ansiMagenta": "#FF80BF",
     "terminal.ansiCyan": "#80FFEA",
     "terminal.ansiWhite": "#D8C5EE",
-
     "terminal.ansiBrightBlack": "#3E2E50",
     "terminal.ansiBrightRed": "#FFB3A0",
     "terminal.ansiBrightGreen": "#A8FF9A",
@@ -102,12 +101,22 @@
     "editor.foldBackground": "#261C3180",
     "editorGutter.background": "#271E32",
     "peekView.border": "#3E2E50",
-    "peekViewEditor.background": "#241B2F"
+    "peekViewEditor.background": "#241B2F",
+    "border": "#3E2E50",
+    "sideBar.border": "#3E2E50",
+    "activityBar.border": "#3E2E50",
+    "statusBar.border": "#3E2E50",
+    "titleBar.border": "#3E2E50",
+    "editorGroup.border": "#3E2E50",
+    "editorGroupHeader.tabsBorder": "#3E2E50"
   },
   "tokenColors": [
     {
       "name": "Comments",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "foreground": "#977DB5",
         "fontStyle": "italic"
@@ -197,7 +206,10 @@
     },
     {
       "name": "Constants",
-      "scope": ["variable.other.constant", "constant.other"],
+      "scope": [
+        "variable.other.constant",
+        "constant.other"
+      ],
       "settings": {
         "foreground": "#B399FF"
       }
@@ -216,35 +228,49 @@
     },
     {
       "name": "Error / Invalid",
-      "scope": ["invalid", "invalid.illegal", "markup.deleted"],
+      "scope": [
+        "invalid",
+        "invalid.illegal",
+        "markup.deleted"
+      ],
       "settings": {
         "foreground": "#FF9580"
       }
     },
     {
       "name": "Inserted / Added",
-      "scope": ["markup.inserted"],
+      "scope": [
+        "markup.inserted"
+      ],
       "settings": {
         "foreground": "#8AFF80"
       }
     },
     {
       "name": "Changed",
-      "scope": ["markup.changed"],
+      "scope": [
+        "markup.changed"
+      ],
       "settings": {
         "foreground": "#FFCA80"
       }
     },
     {
       "name": "Headings",
-      "scope": ["markup.heading", "markup.heading.markdown"],
+      "scope": [
+        "markup.heading",
+        "markup.heading.markdown"
+      ],
       "settings": {
         "foreground": "#B399FF"
       }
     },
     {
       "name": "Links",
-      "scope": ["markup.underline.link", "markup.link"],
+      "scope": [
+        "markup.underline.link",
+        "markup.link"
+      ],
       "settings": {
         "foreground": "#80FFEA",
         "fontStyle": "underline"

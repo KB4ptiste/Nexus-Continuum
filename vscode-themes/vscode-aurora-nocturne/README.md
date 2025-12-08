@@ -1,4 +1,5 @@
 # Nexus Continuum
+
 ### Dual‑Mode VS Code Theme Pack
 
 **Nexus Continuum** unifies two complementary themes built on a shared orbital accent system:
@@ -11,12 +12,14 @@ Both themes share consistent accent colors, semantic roles, and UI contrast phil
 ---
 
 ## Included Themes
+
 - **Nocturne Nexus** (Dark)
 - **Aurora Nexus** (Light)
 
 ---
 
 ## Highlights
+
 - Cohesive light/dark pairing
 - Shared violet‑centric accent palette
 - Clean syntax contrast and readable UI surfaces
@@ -26,6 +29,7 @@ Both themes share consistent accent colors, semantic roles, and UI contrast phil
 ---
 
 ## Auto‑Switch with OS Theme
+
 Enable automatic theme switching:
 
 ```json
@@ -37,13 +41,17 @@ Enable automatic theme switching:
 ---
 
 ## Screenshots
-*(Add images to your Marketplace listing)*
+
 - Dark: **Nocturne Nexus**
+  ![Nocturne Nexus Theme in VS Code](media/nocturne-nexus-preview.png)
+
 - Light: **Aurora Nexus**
+  ![Aurora Nexus Theme in VS Code](media/aurora-nexus-preview.png)
 
 ---
 
 ## File Structure
+
 ```
 themes/
   nocturne-nexus.json
@@ -56,5 +64,5 @@ media/
 ---
 
 ## License
-**MIT License**
 
+**MIT License**
